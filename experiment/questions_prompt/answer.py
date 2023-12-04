@@ -1,9 +1,21 @@
 import pandas
 import json
+import argparse
+
+
+def get_argument():
+    opt = argparse.ArgumentParser()
+    opt.add_argument("--id",
+                     type=str,
+                     help="id")
+    args = vars(opt.parse_args())
+    return args
 
 
 if __name__ == "__main__":
-    input_path = "questions_prompt/data/game1_english.csv"
+    args = get_argument()
+    
+    input_path = f"experiment/questions_prompt/data/game{args['id']}_english.csv"
     input_df = pandas.read_csv(input_path)
     print("input_df:", input_df)
     
@@ -133,3 +145,32 @@ if __name__ == "__main__":
 
     print(question_8)
     print(answer_8)
+
+    answers = f"""{question_1}
+{answer_1}
+    
+{question_2}
+{answer_2}
+    
+{question_3}
+{answer_3}
+    
+{question_4}
+{answer_4}
+    
+{question_5}
+{answer_5}
+    
+{question_6}
+{answer_6}
+    
+{question_7}
+{answer_7}
+    
+{question_8}
+{answer_8}
+    """
+    
+    answer_path = f"experiment/questions_prompt/answer/game{args['id']}.txt"
+    with open(answer_path, 'w', encoding="utf-8") as file:
+        file.write(answers)
