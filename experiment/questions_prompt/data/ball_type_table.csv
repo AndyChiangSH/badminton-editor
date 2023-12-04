@@ -1,0 +1,20 @@
+﻿index,chinese,english
+0,挑球,lob
+1,推球,push
+2,放小球,net shot
+3,擋小球,return net
+4,平球,drive
+5,小平球,driven flight
+6,撲球,rush
+7,防守回挑,defensive return lob
+8,勾球,cross-court net shot
+9,後場抽平球,back-court drive
+10,點扣,wrist smash
+11,長球,clear
+12,殺球,smash
+13,防守回抽,defensive return drive
+14,過度切球,passive drop
+15,切球,drop
+16,發短球,short service
+17,發長球,long service
+18,未知球種,unknown
