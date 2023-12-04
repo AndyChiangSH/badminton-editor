@@ -1,24 +1,23 @@
 Q1: Which player won the game? How many points did the winner get?
 A1: Player A won the game with 21 points.
-    
+
 Q2: Which player lost the game? How many points did the loser get?
 A2: Player B lost the game with 14 points.
-    
+
 Q3: When the winner won the game, which type of win_reason showed up most frequently, and how many times did it show up?
 A3: The winner got 6 points because opponent goes out of bounds.
-    
+
 Q4: When the loser lost the game, which type of lose_reason showed up most frequently, and how many times did it show up?
 A4: The loser lost 6 points because goes out of bounds.
-    
+
 Q5: Which ball_type did the winner get the most points with? How many points did the player get?
 A5: The winner got 6 points by smash.
-    
+
 Q6: Which ball_type did the loser lose the most points with? How many points did the player lose?
 A6: The loser lose 3 points by lob.
-    
+
 Q7: Did the winner come from behind and win the game? If yes, which ball_type did he use to overtake the lead? And what were the scores at that time?
 A7: Yes, the player A used clear to overtake the lead at 2:1.
-    
+
 Q8: How did the winner end the game?
 A8: The winner ends the game because wins by landing by smash.
-    

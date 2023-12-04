@@ -148,28 +148,27 @@ if __name__ == "__main__":
 
     answers = f"""{question_1}
 {answer_1}
-    
+
 {question_2}
 {answer_2}
-    
+
 {question_3}
 {answer_3}
-    
+
 {question_4}
 {answer_4}
-    
+
 {question_5}
 {answer_5}
-    
+
 {question_6}
 {answer_6}
-    
+
 {question_7}
 {answer_7}
-    
+
 {question_8}
-{answer_8}
-    """
+{answer_8}"""
     
     answer_path = f"experiment/questions_prompt/answer/game{args['id']}.txt"
     with open(answer_path, 'w', encoding="utf-8") as file:
