@@ -23,8 +23,8 @@ $(function () {
         let file = $('#input_file')[0].files[0];
         file_name = file["name"].split(".")[0];
         let model = $('#input_model').val();
-        console.log("file:", file)
-        console.log("model:", model)
+        // console.log("file:", file)
+        // console.log("model:", model)
 
         if (file != undefined){
             if (file["type"] == "text/csv") {
@@ -40,7 +40,7 @@ $(function () {
                     contentType: false,
                     processData: false,
                     success: function (response) {
-                        console.log("response:", response)
+                        // console.log("response:", response)
                         let state = response["state"]
                         let content = response["content"]
 

@@ -18,11 +18,11 @@ def pipeline():
         return "Pipeline OK!"
     else:        
         try:
-            print(f"Get data...")
+            # print(f"Get data...")
             file = request.files["file"]
             model = request.values["model"]
-            print("file:", file)
-            print("model:", model)
+            # print("file:", file)
+            # print("model:", model)
         except:
             response = {
                 "state": "fail",
@@ -31,9 +31,9 @@ def pipeline():
             return response
         
         try:
-            print(f"Read file...")
+            # print(f"Read file...")
             input_df = pandas.read_csv(file)
-            print("input_df:", input_df)
+            # print("input_df:", input_df)
         except:
             response = {
                 "state": "fail",
@@ -42,9 +42,9 @@ def pipeline():
             return response
 
         try:
-            print("Translate...")
+            # print("Translate...")
             ouput_df = translate(input_df)
-            print("ouput_df:", ouput_df)
+            # print("ouput_df:", ouput_df)
         except:
             response = {
                 "state": "fail",
@@ -53,9 +53,9 @@ def pipeline():
             return response
         
         try:
-            print("Generate answer...")
+            # print("Generate answer...")
             answers = generate_answer(ouput_df)
-            print("answers:", answers)
+            # print("answers:", answers)
         except:
             response = {
                 "state": "fail",
@@ -64,9 +64,9 @@ def pipeline():
             return response
 
         try:
-            print("Generate news...")
+            # print("Generate news...")
             news = generate_news(answers, model)
-            print("news:", news)
+            # print("news:", news)
         except:
             response = {
                 "state": "fail",
