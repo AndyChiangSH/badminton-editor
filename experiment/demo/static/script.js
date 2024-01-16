@@ -5,25 +5,36 @@ $(function () {
         $("#news").hide();
         $("#reset_button").hide();
         $("#generate_button").show();
+        $("#generate_button").prop('disabled', false);
+        $("#start-icon").show();
+        $("#loading-icon").hide();
         $("#news_content").html("");
         typing = false;
     }
     init();
 
     $("#generate_button").click(function () {
-        var files = $('#input_file')[0].files[0];
-        console.log("files:", files)
+        $("#generate_button").prop('disabled', true);
+        $("#start-icon").hide();
+        $("#loading-icon").show();
 
-        if (files != undefined){
-            if (files["type"] == "text/csv") {
-                var fd = new FormData();
-                fd.append('file', files);
+        let file = $('#input_file')[0].files[0];
+        let model = $('#input_model').val();
+        console.log("file:", file)
+        console.log("model:", model)
+
+        if (file != undefined){
+            if (file["type"] == "text/csv") {
+                let fd = new FormData();
+                fd.append('file', file);
+                fd.append('model', model);
+                // console.log("fd:", fd)
 
                 $.ajax({
                     url: '/pipeline',
                     type: 'post',
                     data: fd,
-                    contentType: "application/json;",
+                    contentType: false,
                     processData: false,
                     success: function (response) {
                         console.log("response:", response)
@@ -39,6 +50,7 @@ $(function () {
                             let i = 0;
                             let speed = 25; /* The speed/duration of the effect in milliseconds */
                             typing = true
+
                             function typeWriter() {
                                 if (i < content.length && typing) {
                                     document.getElementById("news_content").innerHTML += content.charAt(i);
@@ -53,6 +65,15 @@ $(function () {
                             alert('Generate fail!\nError: ' + content);
                         }
                     },
+                    error: function (thrownError) {
+                        // console.log("error msg:", thrownError);
+                        alert("API fail!\nError: " + thrownError);
+                    },
+                    complete: function () {
+                        $("#generate_button").prop('disabled', false);
+                        $("#start-icon").show();
+                        $("#loading-icon").hide();
+                    }
                 });
             }
             else {
