@@ -1,5 +1,7 @@
 $(function () {
     var typing = false;
+    var copy_text = "";
+    var file_name = "";
 
     function init() {
         $("#news").hide();
@@ -19,6 +21,7 @@ $(function () {
         $("#loading-icon").show();
 
         let file = $('#input_file')[0].files[0];
+        file_name = file["name"].split(".")[0];
         let model = $('#input_model').val();
         console.log("file:", file)
         console.log("model:", model)
@@ -50,6 +53,7 @@ $(function () {
                             let i = 0;
                             let speed = 25; /* The speed/duration of the effect in milliseconds */
                             typing = true
+                            copy_text = content
 
                             function typeWriter() {
                                 if (i < content.length && typing) {
@@ -67,7 +71,7 @@ $(function () {
                     },
                     error: function (thrownError) {
                         // console.log("error msg:", thrownError);
-                        alert("API fail!\nError: " + thrownError);
+                        alert("API ERROR!\nPlease let us know, and we will fix it as soon as possible.");
                     },
                     complete: function () {
                         $("#generate_button").prop('disabled', false);
@@ -87,5 +91,20 @@ $(function () {
 
     $("#reset_button").click(function () {
         init();
+    })
+
+    $("#copy-to-clipboard").click(function () {
+        navigator.clipboard.writeText(copy_text).then(function () {
+            alert("Copy to clipboard successful.");
+        }, function (err) {
+            alert("Copy to clipboard fail!");
+        });
+    })
+
+    $("#download-txt").click(function () {
+        // console.log("download txt");
+        // console.log(this);
+        this.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(copy_text));
+        this.setAttribute('download', file_name + ".txt");
     })
 }); 
