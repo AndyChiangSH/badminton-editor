@@ -8,6 +8,30 @@ import os
 pandas.options.mode.chained_assignment = None
 
 
+def preprocess(df):
+    """Preprocess dataframe
+    
+    Input: dataframe
+    Output: preprocessed dataframe
+    """
+    
+    df = df.drop(columns=['rally', 'ball_round', 'time', 'frame_num', 'end_frame_num', 'server', 'aroundhead',
+                          'backhand', 'hit_height', 'hit_area', 'hit_x', 'hit_y', 'landing_height', 'landing_area', 'landing_x', 'landing_y',
+                          'flaw', 'player_location_area', 'player_location_x', 'player_location_y', 'opponent_location_area',
+                          'opponent_location_x', 'opponent_location_y', 'db', 'player'])
+
+    for j, i in enumerate(df['getpoint_player']):
+        if i != 'A' and i != 'B':
+            df = df.drop([j])
+
+    df.rename(columns={'getpoint_player': 'win_point_player'}, inplace=True)
+    df.rename(columns={'type': 'ball_types'}, inplace=True)
+    df = df.iloc[:, [5, 4, 2, 3, 0, 1]]
+
+    return df
+
+
+
 def translate(input_df):
     """Translate from Chinese to English
     

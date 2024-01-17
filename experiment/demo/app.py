@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pandas
 import json
-from pipeline import translate, generate_answer, generate_news
+from pipeline import preprocess, translate, generate_answer, generate_news
 
 
 app = Flask(__name__)
@@ -40,11 +40,22 @@ def pipeline():
                 "content": "Read file"
             }
             return response
+        
+        try:
+            # print(f"Preprocess...")
+            preprocessed_df = preprocess(input_df)
+            # print("preprocessed_df:", preprocessed_df)
+        except:
+            response = {
+                "state": "fail",
+                "content": "Preprocess"
+            }
+            return response
 
         try:
             # print("Translate...")
-            ouput_df = translate(input_df)
-            # print("ouput_df:", ouput_df)
+            translated_df = translate(preprocessed_df)
+            # print("translated_df:", translated_df)
         except:
             response = {
                 "state": "fail",
@@ -54,7 +65,7 @@ def pipeline():
         
         try:
             # print("Generate answer...")
-            answers = generate_answer(ouput_df)
+            answers = generate_answer(translated_df)
             # print("answers:", answers)
         except:
             response = {
