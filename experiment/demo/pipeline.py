@@ -15,10 +15,9 @@ def preprocess(df):
     Output: preprocessed dataframe
     """
     
-    df = df.drop(columns=['rally', 'ball_round', 'time', 'frame_num', 'end_frame_num', 'server', 'aroundhead',
-                          'backhand', 'hit_height', 'hit_area', 'hit_x', 'hit_y', 'landing_height', 'landing_area', 'landing_x', 'landing_y',
-                          'flaw', 'player_location_area', 'player_location_x', 'player_location_y', 'opponent_location_area',
-                          'opponent_location_x', 'opponent_location_y', 'db', 'player'])
+    for i in df:
+        if i not in ['getpoint_player', 'win_reason', 'type', 'lose_reason', 'roundscore_A', 'roundscore_B']:
+            df = df.drop(columns=[i])
 
     for j, i in enumerate(df['getpoint_player']):
         if i != 'A' and i != 'B':

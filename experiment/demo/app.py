@@ -16,7 +16,7 @@ def index():
 def pipeline():
     if request.method == "GET":
         return "Pipeline OK!"
-    else:        
+    else:
         try:
             # print(f"Get data...")
             file = request.files["file"]
@@ -32,7 +32,8 @@ def pipeline():
         
         try:
             # print(f"Read file...")
-            input_df = pandas.read_csv(file)
+            data = pandas.read_csv(file)
+            input_df = pandas.DataFrame(data)
             # print("input_df:", input_df)
         except:
             response = {
