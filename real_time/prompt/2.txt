@@ -1,19 +1,21 @@
-球員A: {player_A}
-球員B: {player_B}
-比賽: {competition}
+此場比賽資訊 (請翻譯成**繁體中文**):
+
+球員A: TAI Tzu Ying
+球員B: CHEN Yu Fei
+比賽: 2024 Malaysia Badminton Open Quarterfinals
 
 建議提到的球員背景資訊:
 
-1. {player_A} 是來自 {country_A} 的選手
-2. {player_A} 目前是 {age_A} 歲
-3. {player_A} 目前是 {category_A} 世界排名第 {rank_A} 名
-4. {player_A} 最近在 {tournament_name_A} 比賽中獲得第 {tournament_rank_A} 名
-5. {player_B} 是來自 {country_B} 的選手
-6. {player_B} 目前是 {age_B} 歲
-7. {player_B} 目前是 {category_B} 世界排名第 {rank_B} 名
-8. {player_B} 最近在 {tournament_name_B} 比賽中獲得第 {tournament_rank_B} 名
-9. {player_A} 和 {player_B} 過去對戰的勝場為 {win_count1} 比 {win_count2}
-10. {player_A} 和 {player_B} 最近一次的對戰是在 {tournament_name_h2h}
+1. TAI Tzu Ying 是來自 Chinese Taipei 的選手
+2. TAI Tzu Ying 目前是 30 歲
+3. TAI Tzu Ying 目前是 Women's Singles 世界排名第 5 名
+4. TAI Tzu Ying 最近在 VICTOR China Open 2024 比賽中獲得第 17/32 名
+5. CHEN Yu Fei 是來自 China 的選手
+6. CHEN Yu Fei 目前是 26 歲
+7. CHEN Yu Fei 目前是 Women's Singles 世界排名第 2 名
+8. CHEN Yu Fei 最近在 Paris 2024 Olympic Games Badminton Competition 比賽中獲得第 5/8 名
+9. TAI Tzu Ying 和 CHEN Yu Fei 過去對戰的勝場為 19 比 8
+10. TAI Tzu Ying 和 CHEN Yu Fei 最近一次的對戰是在 YONEX SUNRISE India Open 2024
 
 球員A過去比賽中的戰術次數（轉成用比例敘述）:
 Full_Court_Pressure:66

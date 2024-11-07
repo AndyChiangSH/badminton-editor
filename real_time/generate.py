@@ -2,6 +2,7 @@ import openai
 import api
 import os
 from dotenv import load_dotenv
+import time
 
 
 def generate_prompt(args):
@@ -97,7 +98,7 @@ def generate_news(system_prompt, user_prompt):
 
 if __name__ == "__main__":
     args = {
-        "template": "1",
+        "template": "2",
         "player_A": "TAI Tzu Ying",
         "player_B": "CHEN Yu Fei",
         "competition": "2024 Malaysia Badminton Open Quarterfinals",
@@ -105,8 +106,11 @@ if __name__ == "__main__":
     }
     
     print("Generate prompt...")
+    start_time = time.time()
     prompt = generate_prompt(args)
+    end_time = time.time()
     print("prompt:\n", prompt)
+    print(f"Time for generating prompt: {end_time - start_time} s")
     
     prompt_path = f"prompt/{args["template"]}.txt"
     print(f"Save prompt to {prompt_path}...")
@@ -114,8 +118,11 @@ if __name__ == "__main__":
         f.write(prompt)
 
     print("Generate news...")
-    system_prompt = "必需要提到並仔細描述的事實，與不要描述沒有提供的事實，還有各局比賽描述，為這場比賽寫一篇客觀的新聞。"
+    system_prompt = "你是羽毛球比賽的記者，請參考範例，並根據給定的細節內容: 必需要提到並仔細描述的事實，與不要描述沒有提供的事實，還有各局比賽描述，使用**繁體中文**為這場比賽寫一篇客觀的新聞。"
+    start_time = time.time()
     news = generate_news(system_prompt, prompt)
+    end_time = time.time()
+    print(f"Time for generating news: {end_time - start_time} s")
     print("news:\n", news)
     
     news_path = f"news/{args["template"]}_{args["model"]}.txt"

@@ -1,3 +1,5 @@
+此場比賽資訊 (請翻譯成**繁體中文**):
+
 球員A: {player_A}
 球員B: {player_B}
 比賽: {competition}
