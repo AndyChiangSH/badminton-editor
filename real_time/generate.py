@@ -101,7 +101,7 @@ if __name__ == "__main__":
         "player_A": "TAI Tzu Ying",
         "player_B": "CHEN Yu Fei",
         "competition": "2024 Malaysia Badminton Open Quarterfinals",
-        "model": "gpt-4o-mini"
+        "model": "gpt-4o"
     }
     
     print("Generate prompt...")
