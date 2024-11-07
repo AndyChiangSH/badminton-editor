@@ -1,0 +1,107 @@
+You are an editor of badminton games online community, here are tables of sets of a badminton game as csv file below, which record the data of how every rally ends.
+Please write an excited post in 100 words for this game emphasize the player A's 推球 based on the given table and details given below. 
+
+set 1 details:
+A1: Player A won the game with 22 points.
+A2: Player B lost the game with 20 points.
+A3: The winner got 8 points because 對手掛網.
+A4: The loser lost 8 points because 掛網.
+A5: The winner got 5 points by 推球.
+A6: The loser lose 5 points by 推球.
+A7: Yes, the player A used 勾球 to overtake the lead at 13:12.
+A8: The winner ends the game because 對手未過網 by 放小球.
+
+set 1 csv table:
+win_point_player,win_reason,ball_types,lose_reason,roundscore_A,roundscore_B
+B,對手出界,挑球,出界,0,1
+A,對手掛網,推球,掛網,1,1
+B,落地致勝,殺球,對手落地致勝,1,2
+B,對手掛網,殺球,掛網,1,3
+B,落地致勝,推球,對手落地致勝,1,4
+B,對手出界,挑球,出界,1,5
+B,落地致勝,殺球,對手落地致勝,1,6
+A,對手掛網,放小球,掛網,2,6
+B,對手掛網,放小球,掛網,2,7
+B,對手出界,推球,出界,2,8
+A,對手掛網,擋小球,掛網,3,8
+A,對手未過網,放小球,未過網,4,8
+A,對手掛網,放小球,掛網,6,8
+A,落地致勝,後場抽平球,對手落地致勝,7,8
+B,落地致勝,殺球,對手落地致勝,7,9
+B,對手掛網,放小球,掛網,7,10
+B,對手未過網,擋小球,未過網,7,11
+A,落地致勝,殺球,對手落地致勝,8,11
+A,對手出界,推球,出界,9,11
+B,落地致勝,勾球,對手落地致勝,9,12
+A,對手出界,推球,出界,10,12
+A,對手掛網,切球,掛網,11,12
+A,對手出界,殺球,出界,12,12
+A,對手出界,勾球,出界,13,12
+A,對手掛網,勾球,掛網,14,12
+A,對手出界,防守回挑,出界,15,12
+B,對手掛網,放小球,掛網,15,13
+A,落地致勝,切球,對手落地致勝,16,13
+B,對手掛網,擋小球,掛網,16,14
+B,落地致勝,勾球,對手落地致勝,16,15
+A,對手掛網,撲球,掛網,17,15
+B,對手出界,防守回抽,出界,17,16
+A,落地致勝,殺球,對手落地致勝,18,16
+B,落地致勝,挑球,對手落地致勝,18,17
+A,落地致勝,推球,對手落地致勝,19,17
+B,落地致勝,勾球,對手落地致勝,19,18
+A,落地致勝,推球,對手落地致勝,20,18
+B,對手出界,推球,出界,20,19
+B,對手未過網,擋小球,未過網,20,20
+A,對手掛網,放小球,掛網,21,20
+A,對手未過網,放小球,未過網,22,20
+
+
+
+set 2 details:
+A1: Player A won the game with 21 points.
+A2: Player B lost the game with 12 points.
+A3: The winner got 11 points because 對手掛網.
+A4: The loser lost 11 points because 掛網.
+A5: The winner got 5 points by 勾球.
+A6: The loser lose 5 points by 勾球.
+A7: Yes, the player A used 勾球 to overtake the lead at 3:2.
+A8: The winner ends the game because 對手掛網 by 放小球.
+
+set 2 csv table:
+win_point_player,win_reason,ball_types,lose_reason,roundscore_A,roundscore_B
+B,對手出界,切球,出界,0,1
+A,對手出界,殺球,出界,1,1
+B,對手未過網,擋小球,未過網,1,2
+A,對手掛網,放小球,掛網,2,2
+A,對手掛網,勾球,掛網,3,2
+A,對手掛網,勾球,掛網,4,2
+A,對手掛網,勾球,掛網,5,2
+B,對手出界,殺球,出界,5,3
+B,對手未過網,放小球,未過網,5,4
+B,對手出界,挑球,出界,5,5
+A,對手掛網,放小球,掛網,6,5
+B,落地致勝,殺球,對手落地致勝,6,6
+A,對手掛網,平球,掛網,7,6
+A,對手出界,點扣,出界,8,6
+B,對手掛網,殺球,掛網,8,7
+B,對手掛網,放小球,掛網,8,8
+A,對手出界,殺球,出界,9,8
+A,對手未過網,防守回抽,未過網,10,8
+B,落地致勝,防守回抽,對手落地致勝,10,9
+B,對手掛網,放小球,掛網,10,10
+A,對手出界,推球,出界,11,10
+B,對手掛網,防守回抽,掛網,11,11
+A,對手掛網,勾球,掛網,12,11
+B,對手出界,挑球,出界,12,12
+A,對手掛網,放小球,掛網,13,12
+A,對手出界,勾球,出界,14,12
+A,落地致勝,殺球,對手落地致勝,15,12
+A,落地致勝,殺球,對手落地致勝,16,12
+A,對手掛網,切球,掛網,17,12
+A,對手出界,殺球,出界,18,12
+A,對手掛網,放小球,掛網,19,12
+A,對手出界,推球,出界,20,12
+A,對手掛網,放小球,掛網,21,12
+
+
+

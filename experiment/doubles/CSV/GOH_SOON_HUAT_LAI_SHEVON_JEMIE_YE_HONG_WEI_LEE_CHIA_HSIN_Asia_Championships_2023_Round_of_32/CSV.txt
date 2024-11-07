@@ -1,0 +1,125 @@
+Asia Championships 2023 Round of 32: GOH SOON HUAT  & LAI SHEVON JEMIE v.s. YE HONG WEI & LEE CHIA HSIN
+
+Set 1:
+score_team,win_point_player,roundscore_AB,roundscore_CD,ball_types,win_reason,lose_reason
+AB,YE HONG WEI,1,0,clear,opponent goes out of bounds,goes out of bounds
+AB,GOH SOON HUAT,2,0,long service,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,2,1,driven flight,opponent goes out of bounds,goes out of bounds
+CD,LAI SHEVON JEMIE,2,2,net shot,opponent hits the net,hits the net
+AB,YE HONG WEI,3,2,smash,opponent hits the net,hits the net
+CD,LEE CHIA HSIN,3,3,smash,wins by landing,opponent wins by landing
+AB,LEE CHIA HSIN,4,3,short service,opponent hits the net,hits the net
+CD,LEE CHIA HSIN,4,4,smash,wins by landing,opponent wins by landing
+AB,YE HONG WEI,5,4,net shot,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,6,4,net shot,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,7,4,unknown,opponent goes out of bounds,goes out of bounds
+CD,LAI SHEVON JEMIE,7,5,long service,unknown,unknown
+CD,LAI SHEVON JEMIE,7,6,cross-court net shot,opponent goes out of bounds,goes out of bounds
+CD,YE HONG WEI,7,7,lob,opponent landing judgment error,landing judgment error
+CD,YE HONG WEI,7,8,drive,wins by landing,opponent wins by landing
+CD,LEE CHIA HSIN,7,9,lob,opponent landing judgment error,landing judgment error
+CD,GOH SOON HUAT,7,10,return net,opponent fails to clear the net,fails to clear the net
+CD,YE HONG WEI,7,11,unknown,wins by landing,opponent wins by landing
+CD,GOH SOON HUAT,7,12,drive,opponent hits the net,hits the net
+CD,GOH SOON HUAT,7,13,drive,opponent hits the net,hits the net
+CD,LAI SHEVON JEMIE,7,14,return net,opponent hits the net,hits the net
+AB,YE HONG WEI,8,14,drive,opponent hits the net,hits the net
+CD,GOH SOON HUAT,8,15,return net,opponent fails to clear the net,fails to clear the net
+AB,YE HONG WEI,9,15,drive,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,10,15,return net,opponent fails to clear the net,fails to clear the net
+CD,LAI SHEVON JEMIE,10,16,short service,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,11,16,long service,opponent goes out of bounds,goes out of bounds
+CD,GOH SOON HUAT,11,17,return net,opponent fails to clear the net,fails to clear the net
+CD,LEE CHIA HSIN,11,18,smash,wins by landing,opponent wins by landing
+CD,GOH SOON HUAT,11,19,return net,opponent hits the net,hits the net
+AB,YE HONG WEI,12,19,return net,opponent fails to clear the net,fails to clear the net
+AB,LEE CHIA HSIN,13,19,driven flight,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,14,19,lob,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,15,19,net shot,opponent hits the net,hits the net
+CD,YE HONG WEI,15,20,smash,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,15,21,return net,opponent goes out of bounds,goes out of bounds
+
+
+Set 2:
+score_team,win_point_player,roundscore_AB,roundscore_CD,ball_types,win_reason,lose_reason
+CD,LEE CHIA HSIN,0,1,short service,opponent landing judgment error,landing judgment error
+CD,LAI SHEVON JEMIE,0,2,driven flight,opponent hits the net,hits the net
+CD,LAI SHEVON JEMIE,0,3,lob,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,1,3,return net,opponent goes out of bounds,goes out of bounds
+AB,GOH SOON HUAT,2,3,drive,wins by landing,opponent wins by landing
+AB,LAI SHEVON JEMIE,3,3,driven flight,wins by landing,opponent wins by landing
+AB,LEE CHIA HSIN,4,3,driven flight,opponent hits the net,hits the net
+CD,YE HONG WEI,4,4,unknown,wins by landing,opponent wins by landing
+AB,LAI SHEVON JEMIE,5,4,smash,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,5,5,net shot,opponent hits the net,hits the net
+AB,GOH SOON HUAT,6,5,smash,wins by landing,opponent wins by landing
+AB,LEE CHIA HSIN,7,5,net shot,opponent hits the net,hits the net
+CD,LAI SHEVON JEMIE,7,6,defensive return drive,opponent hits the net,hits the net
+CD,LAI SHEVON JEMIE,7,7,driven flight,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,8,7,return net,opponent fails to clear the net,fails to clear the net
+AB,LEE CHIA HSIN,9,7,unknown,opponent goes out of bounds,goes out of bounds
+CD,GOH SOON HUAT,9,8,return net,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,10,8,short service,opponent goes out of bounds,goes out of bounds
+AB,YE HONG WEI,11,8,drive,opponent hits the net,hits the net
+CD,LEE CHIA HSIN,11,9,unknown,wins by landing,opponent wins by landing
+AB,YE HONG WEI,12,9,long service,unknown,unknown
+CD,GOH SOON HUAT,12,10,short service,opponent hits the net,hits the net
+CD,YE HONG WEI,12,11,drive,wins by landing,opponent wins by landing
+CD,YE HONG WEI,12,12,smash,wins by landing,opponent wins by landing
+AB,GOH SOON HUAT,13,12,unknown,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,13,13,short service,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,14,13,net shot,opponent hits the net,hits the net
+CD,YE HONG WEI,14,14,smash,wins by landing,opponent wins by landing
+AB,LEE CHIA HSIN,15,14,return net,opponent hits the net,hits the net
+AB,YE HONG WEI,16,14,unknown,opponent hits the net,hits the net
+CD,YE HONG WEI,16,15,unknown,wins by landing,opponent wins by landing
+AB,YE HONG WEI,17,15,return net,opponent fails to clear the net,fails to clear the net
+AB,LAI SHEVON JEMIE,18,15,net shot,wins by landing,opponent wins by landing
+CD,YE HONG WEI,18,16,drive,wins by landing,opponent wins by landing
+CD,YE HONG WEI,18,17,smash,wins by landing,opponent wins by landing
+CD,YE HONG WEI,18,18,return net,wins by landing,opponent wins by landing
+CD,LEE CHIA HSIN,18,19,drive,opponent landing judgment error,landing judgment error
+AB,YE HONG WEI,19,19,drive,opponent hits the net,hits the net
+CD,GOH SOON HUAT,19,20,drive,opponent hits the net,hits the net
+AB,LAI SHEVON JEMIE,20,20,driven flight,wins by landing,opponent wins by landing
+AB,LEE CHIA HSIN,21,20,driven flight,opponent hits the net,hits the net
+AB,YE HONG WEI,22,20,return net,opponent hits the net,hits the net
+
+
+Set 3:
+score_team,win_point_player,roundscore_AB,roundscore_CD,ball_types,win_reason,lose_reason
+AB,LEE CHIA HSIN,1,0,driven flight,opponent hits the net,hits the net
+CD,LAI SHEVON JEMIE,1,1,defensive return drive,opponent hits the net,hits the net
+AB,LAI SHEVON JEMIE,2,1,net shot,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,2,2,net shot,opponent fails to clear the net,fails to clear the net
+CD,LAI SHEVON JEMIE,2,3,drive,opponent hits the net,hits the net
+AB,YE HONG WEI,3,3,smash,opponent hits the net,hits the net
+AB,LAI SHEVON JEMIE,4,3,return net,wins by landing,opponent wins by landing
+CD,YE HONG WEI,4,4,driven flight,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,4,5,return net,opponent goes out of bounds,goes out of bounds
+AB,LAI SHEVON JEMIE,5,5,cross-court net shot,wins by landing,opponent wins by landing
+CD,YE HONG WEI,5,6,smash,wins by landing,opponent wins by landing
+CD,LEE CHIA HSIN,5,7,unknown,wins by landing,opponent wins by landing
+CD,LAI SHEVON JEMIE,5,8,return net,opponent hits the net,hits the net
+CD,YE HONG WEI,6,9,return net,wins by landing,opponent wins by landing
+CD,GOH SOON HUAT,6,10,return net,opponent hits the net,hits the net
+AB,YE HONG WEI,7,10,short service,opponent goes out of bounds,goes out of bounds
+CD,GOH SOON HUAT,7,11,long service,unknown,unknown
+AB,LEE CHIA HSIN,8,11,return net,opponent fails to clear the net,fails to clear the net
+AB,YE HONG WEI,9,11,return net,opponent fails to clear the net,fails to clear the net
+AB,GOH SOON HUAT,10,11,drive,wins by landing,opponent wins by landing
+CD,YE HONG WEI,10,12,unknown,wins by landing,opponent wins by landing
+CD,GOH SOON HUAT,10,13,return net,opponent hits the net,hits the net
+AB,GOH SOON HUAT,11,13,drop,wins by landing,opponent wins by landing
+CD,YE HONG WEI,11,14,smash,wins by landing,opponent wins by landing
+CD,YE HONG WEI,11,15,smash,wins by landing,opponent wins by landing
+AB,LAI SHEVON JEMIE,12,15,driven flight,wins by landing,opponent wins by landing
+AB,GOH SOON HUAT,13,15,drive,wins by landing,opponent wins by landing
+AB,YE HONG WEI,14,15,return net,opponent fails to clear the net,fails to clear the net
+AB,YE HONG WEI,15,15,drive,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,16,15,return net,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,17,15,smash,opponent hits the net,hits the net
+AB,LEE CHIA HSIN,18,15,drive,opponent goes out of bounds,goes out of bounds
+AB,LEE CHIA HSIN,19,15,return net,opponent hits the net,hits the net
+AB,GOH SOON HUAT,20,15,smash,wins by landing,opponent wins by landing
+AB,GOH SOON HUAT,21,15,smash,wins by landing,opponent wins by landing
