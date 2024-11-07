@@ -13,7 +13,7 @@ def generate_prompt(args):
     
     # Read prompt template
     print("Read prompt template...")
-    with open(f"template/{args["name"]}.txt", "r") as f:
+    with open(f"template/{args["template"]}.txt", "r") as f:
         prompt = f.read()
     
     # Get information about player A
@@ -97,18 +97,18 @@ def generate_news(system_prompt, user_prompt):
 
 if __name__ == "__main__":
     args = {
-        "name": "1",
+        "template": "1",
         "player_A": "TAI Tzu Ying",
         "player_B": "CHEN Yu Fei",
         "competition": "2024 Malaysia Badminton Open Quarterfinals",
-        "model": "gpt-3.5-turbo"
+        "model": "gpt-4o-mini"
     }
     
     print("Generate prompt...")
     prompt = generate_prompt(args)
     print("prompt:\n", prompt)
     
-    prompt_path = f"prompt/{args["name"]}.txt"
+    prompt_path = f"prompt/{args["template"]}.txt"
     print(f"Save prompt to {prompt_path}...")
     with open(prompt_path, "w") as f:
         f.write(prompt)
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     news = generate_news(system_prompt, prompt)
     print("news:\n", news)
     
-    news_path = f"news/{args["name"]}.txt"
+    news_path = f"news/{args["template"]}_{args["model"]}.txt"
     print(f"Save news to {news_path}...")
     with open(news_path, "w") as f:
         f.write(news)
