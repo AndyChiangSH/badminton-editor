@@ -1,43 +1,46 @@
-此場比賽資訊 (請翻譯成**繁體中文**):
+# 此場比賽資訊（請使用**繁體中文**描述）
 
-球員A: {player_A}
-球員B: {player_B}
-比賽: {competition}
+球員A: TAI Tzu Ying
+球員B: CHEN Yu Fei
+比賽: 2024 Malaysia Badminton Open Quarterfinals
 
-建議提到的球員背景資訊:
+# 建議提到的球員背景資訊（選其中兩個講，不要全都講）
 
-1. {player_A} 是來自 {country_A} 的選手
-2. {player_A} 目前是 {age_A} 歲
-3. {player_A} 目前是 {category_A} 世界排名第 {rank_A} 名
-4. {player_A} 最近在 {tournament_name_A} 比賽中獲得第 {tournament_rank_A} 名
-5. {player_B} 是來自 {country_B} 的選手
-6. {player_B} 目前是 {age_B} 歲
-7. {player_B} 目前是 {category_B} 世界排名第 {rank_B} 名
-8. {player_B} 最近在 {tournament_name_B} 比賽中獲得第 {tournament_rank_B} 名
-9. {player_A} 和 {player_B} 過去對戰的勝場為 {win_count1} 比 {win_count2}
-10. {player_A} 和 {player_B} 最近一次的對戰是在 {tournament_name_h2h}
+1. TAI Tzu Ying 是來自 Chinese Taipei 的選手
+2. TAI Tzu Ying 目前是 30 歲
+3. TAI Tzu Ying 目前是 Women's Singles 世界排名第 5 名
+4. TAI Tzu Ying 最近在 VICTOR China Open 2024 比賽中獲得第 17/32 名
+5. CHEN Yu Fei 是來自 China 的選手
+6. CHEN Yu Fei 目前是 26 歲
+7. CHEN Yu Fei 目前是 Women's Singles 世界排名第 2 名
+8. CHEN Yu Fei 最近在 Paris 2024 Olympic Games Badminton Competition 比賽中獲得第 5/8 名
+9. TAI Tzu Ying 和 CHEN Yu Fei 過去對戰的勝場為 19 比 8
+10. TAI Tzu Ying 和 CHEN Yu Fei 最近一次的對戰是在 YONEX SUNRISE India Open 2024
 
-球員A過去比賽中的戰術次數（轉成用比例敘述）:
+# 過去比賽中的戰術次數（轉成用比例敘述）
+
+## 球員A
+
 Full_Court_Pressure:66
 Defensive_Counterattack:43
 Four_Corner:193
 No_tactic:106
 
-球員B過去比賽中的戰術次數（轉成用比例敘述）:
+## 球員B
+
 Full_Court_Pressure:33
 Defensive_Counterattack:35
 Four_Corner:223
 No_tactic:118
 
-細節內容:
+# 細節內容
 
 1. 主要描述比分進展，球種輔助說明
 2. 不要每一局都細節描述
 3. 不要講述比賽以外的內容
 4. 花一個段落講解戰術分布
-5. 球員背景資訊選其中兩個講，不要全都講
 
-不要描述沒有提供的事實，以下是不希望的範例:
+# 不要描述沒有提供的事實，以下是不希望的範例
 
 1. 全世界都在關注這場對局
 2. 強調某個球員在羽壇中的地位
@@ -52,9 +55,9 @@ No_tactic:118
 11. 展現了...
 12. 更彰顯了...
 
-各局比賽描述:
+# 各局比賽描述
 
-第一局:
+## 第一局
 
 1. 球員B取得了21分並贏了這局。
 2. 球員A取得了17分並輸了這局。
@@ -65,7 +68,7 @@ No_tactic:118
 7. 球員B這局並未大幅落後過。
 8. 贏家最後用殺球贏得了這局。
 
-第二局:
+## 第二局
 
 1. 球員A取得了21分並贏了這局。
 2. 球員B取得了15分並輸了這局。
@@ -76,7 +79,7 @@ No_tactic:118
 7. 球員A用殺球在比分13:12的時侯成了反超。
 8. 贏家最後用挑球贏得了這局。
 
-第三局:
+## 第三局
 
 1. 球員A取得了21分並贏了這局。
 2. 球員B取得了15分並輸了這局。
@@ -87,7 +90,7 @@ No_tactic:118
 7. 球員A用殺球在比分13:12的時侯成了反超。
 8. 贏家最後用挑球贏得了這局。
 
-範例:
+# 範例
 
 精彩對決回顧：周天成 VS 奈良岡功大
 

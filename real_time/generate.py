@@ -98,7 +98,7 @@ def generate_news(system_prompt, user_prompt):
 
 if __name__ == "__main__":
     args = {
-        "template": "2",
+        "template": "3",
         "player_A": "TAI Tzu Ying",
         "player_B": "CHEN Yu Fei",
         "competition": "2024 Malaysia Badminton Open Quarterfinals",
