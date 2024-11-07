@@ -154,19 +154,19 @@ def crawl_tournament_page_by_name(player_name: str) -> Dict[str, Any]:
 
     matches = []
 
-    for match_tag in last_match_tags:
-        match_result = dict()
-        match_result["name"] = match_tag.select("div.match__header span.nav-link__value")[0].text.strip()
-        match_result["lasting"] = match_tag.select("div.match__header-aside time")[0].text.strip()
-        match_result["date"] = match_tag.select("div.match__footer span.nav-link__value")[0].text.strip()
-        match_result["place"] = match_tag.select("div.match__footer span.nav-link__value")[-1].text.strip()
-        match_result["opponent"] = match_tag.select("div.match__body span.match__row-title-value-content a span")[-1].text.strip()
+    # for match_tag in last_match_tags:
+    #     match_result = dict()
+    #     match_result["name"] = match_tag.select("div.match__header span.nav-link__value")[0].text.strip()
+    #     match_result["lasting"] = match_tag.select("div.match__header-aside time")[0].text.strip()
+    #     match_result["date"] = match_tag.select("div.match__footer span.nav-link__value")[0].text.strip()
+    #     match_result["place"] = match_tag.select("div.match__footer span.nav-link__value")[-1].text.strip()
+    #     match_result["opponent"] = match_tag.select("div.match__body span.match__row-title-value-content a span")[-1].text.strip()
         
-        score_tags = match_tag.select("div.match__body ul.points li")
-        for round, i in enumerate(range(0, len(score_tags), 2)):
-            match_result[f"round_{round+1}"] = score_tags[i].text.strip() + ":" + score_tags[i+1].text.strip()
+    #     score_tags = match_tag.select("div.match__body ul.points li")
+    #     for round, i in enumerate(range(0, len(score_tags), 2)):
+    #         match_result[f"round_{round+1}"] = score_tags[i].text.strip() + ":" + score_tags[i+1].text.strip()
 
-        matches.append(match_result)
+    #     matches.append(match_result)
 
     start_time = start_time.strip()
     end_time = end_time.strip()
