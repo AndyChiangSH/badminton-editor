@@ -66,4 +66,11 @@ def get_h2h(player_name1: str, player_name2: str) -> Dict:
     _, member_id2 = crawl_find_page_by_name(player_name2)
     
     result = crawl_h2h_page_by_id(member_id1, member_id2)
+
+    if result["match-details"]["winner"] == 1:
+        result["match-details"]["winner"] = player_name1
+    else:
+        result["match-details"]["winner"] = player_name2
+
+
     return result
